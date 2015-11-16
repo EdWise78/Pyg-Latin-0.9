@@ -1,5 +1,5 @@
 def pyg_word(word):
-    # Convert single word, manage punctuation marks
+    # Convert single word, deal with punctuation marks
     Satzzeichen = ""
     if not word[len(word)-1].isalpha():
         Satzzeichen=word[len(word)-1]
